@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Noto Serif", serif;
+}
+body{ 
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+header{ 
+	background-color: rgb(239, 238, 235);
+	width: 100%;
+	height: 100px;
+	display: flex;
+	box-shadow: 5px 5px 5px #000;
+	padding: 10px;
+	position: sticky;
+	z-index: 100;
+	top: 0;
+}
+.menu-left{ 
+	width: 45%;
+	height: 100%;
+	/* background-color: darkcyan; */
+}
+.menu-icon{ 
+	width: 10%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	/* background-color: chocolate; */
+}
+.menu-icon i{
+	font-size: 3rem;
+}
+.menu-rigth{ 
+	width: 45%;
+	height: 100%;
+	/* background-color: cornflowerblue; */
+}
+.menu-rigth ul{
+	float: right;
+}
+ul {
+	list-style: none;
+	display: flex;
+}
+li{
+	margin: 10px;
+}
+ul li a{
+	font-size: 23px;
+	text-decoration: none;
+	color: #000;
+}
+ul li a:hover{
+	opacity: 0.5;
+}
+.profile{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: black;
+}
+.container1{
+	height: 100vh;
+	width: 100%;
+	background-color: aqua;
+	display: flex;
+}
+.container1 h1,h3{
+	color: #000;
+}
+.container1 .con-box{
+	width: 50%;
+	height:100% ;
+	background-color: crimson;
+}
+.con-box:nth-child(1){
+	background-image: url(table1.jpg);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+	padding: 5%;
+	background-repeat: no-repeat;
+	color: gray;
+}
+.con-box:nth-child(1){
+	font-size: 3rem;
+}
+.con-box:nth-child(2){
+	background-image: url(table3.jpg);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+}
+.con-box img{
+	width: 100%;
+	height: 100%;
+}
+#btn_up{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #000;
+	color: #fff;
+	font-size: 25px;
+}
+
+.container2{
+	width: 100%;
+	height: 450px;
+	/* background-color: aqua; */
+	display: grid;
+	place-items: center;
+}
+.container2 .text{
+	width: 60%;
+	height: 80%;
+	/* background-color: cornflowerblue; */
+}
+.container2 button{
+	padding: 10px 15px;
+	font-size:20px;
+	color: #fff;
+	background-color: #000;
+	border-radius: 5px;
+}
+.container2 button:hover{
+		outline: 3px solid rgba(0, 191, 255, 0.32);
+}
+
+
+
+.container3{ 
+   width: 100%;
+	 height: 120vh;
+}
+.container3 h1{
+	font-size: 4rem;
+}
+.container3 .row{
+	width:90%;
+	height: 50%;	
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	
+}
+.container3 .row a{
+	text-decoration: none;
+	color: #000;
+}
+.container3 .row .col-4{
+	width: 24%;
+	height: 100%;
+}
+.container3 .row .col-4 .img{
+	width: 100%;
+	height: 80%;
+	background-color: #f7f3f3c9;
+	border-radius: 5px;
+}
+.container3 .row .col-4 .img img{
+	width: 100%; 
+ height: 100%;
+}
+.container3 .row .col-4:hover img{
+	opacity: 0.6;
+}
+
+.container3 .row .col-4 .txt{
+width: 100%;
+height: 20%;
+padding: 10px;
+}
+
+
+.container4 {
+	width: 80%;
+	height: 450px;
+	margin: auto;
+	display: flex;
+	padding: 50px;
+	position: relative;
+	background-color: rgba(255, 192, 203, 0.719);
+}
+.container4 .img{ 
+	width: 40%;
+	height: 100%;
+}
+.container4 .img img{
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	margin-right: 20%;
+	left: -5%;
+}
+.container4 .read{
+	width: 60%;
+	height: 100%;
+	background-color: chartreuse;
+}
+.container4 h1{
+	font-size: 3rem;
+}
+.container4 button{
+	padding: 10px 15px;
+	border-radius: 10px;
+	background-color: #000;
+	color: #fff;
+}
+
+.container5{
+	width: 90%;
+	margin: auto;
+	height: 500px;
+	background-color: cadetblue;
+	display: flex;
+}
+.container5 .box{
+	width: 30%;
+	height: 100%;
+	background-color: chartreuse;
+	overflow: hidden;
+}
+.container5 .box .img-on{
+	width: 280px;
+	height: 300px;
+	background-color: #aaa4a4c5;
+	position: relative;
+}
+.container5 .box .img-on .img_on_pic{
+	width: 200px;
+	height: 250px;
+	background-color: #aaa4a4c5;
+	position: absolute;
+	inset: 70%;
+}
+.container5 .center{
+	width: 40%;
+	height: 100%;
+	background-color: coral;
+}
+.container5 .box .rigth{
+	float: right;
+}
+.container5 .box .rigth .img_on_pic{
+	width: 200px;
+	height: 250px;
+	background-color: #aaa4a4c5;
+	position: absolute;
+	inset: 70% -40%;
+}
+.container5 .center h1{
+	font-size: 5rem;
+	font-weight: 400;
+}
+.container5 .center .box-in{
+	width: 100%;
+	height: 358px;
+	background-color: #aaa4a4c5;
+	position: relative;
+}
+.container5 .center .box-in .box-show{
+	width: 200px;
+	height: 250px;
+	background-color: #e68888c5;
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+}
